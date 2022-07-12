@@ -1,0 +1,1 @@
+web: gunicorn kimbara.wsgi --log-file -

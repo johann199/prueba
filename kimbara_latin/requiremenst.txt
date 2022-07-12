@@ -1,0 +1,117 @@
+anaconda-clean @ file:///tmp/build/80754af9/anaconda-clean_1607007468917/work
+arcgis2geojson==2.0.1
+argon2-cffi==20.1.0
+asgiref==3.5.0
+asttokens==2.0.5
+backcall==0.2.0
+beautifulsoup4==4.11.1
+branca==0.5.0
+brotlipy==0.7.0
+bs4==0.0.1
+cairocffi==1.3.0
+CairoSVG==2.5.2
+certifi==2021.10.8
+cffi @ file:///opt/conda/conda-bld/cffi_1642701102775/work
+chardet==4.0.0
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+click==8.1.2
+conda==4.12.0
+conda-package-handling @ file:///tmp/build/80754af9/conda-package-handling_1649105784853/work
+cryptography @ file:///tmp/build/80754af9/cryptography_1639414572950/work
+cssselect2==0.6.0
+decorator==5.1.1
+defusedxml==0.7.1
+dj-database-url==0.5.0
+Django==3.0.3
+django-appconf==1.0.5
+django-bootstrap-daterangepicker==1.0.6
+django-bootstrap4==1.0.1
+django-braces==1.14.0
+django-colorfield==0.3.2
+django-crispy-forms==1.10.0
+django-currentuser==0.5.2
+django-datatables-view==1.19.1
+django-db-call==0.2.0
+django-easy-audit==1.3.0
+django-environ==0.4.5
+django-geojson==3.0.0
+django-jsonfield==1.4.0
+django-pandas==0.6.2
+django-redis==5.2.0
+django-redis-cache==3.0.0
+django-select2==7.5.0
+django-serverside-datatable==2.0.0
+django-simple-history==2.12.0
+django-storages==1.11.1
+djangorestframework==3.12.2
+djangorestframework-gis==0.17
+docx2pdf==0.1.7
+docxtpl==0.11.2
+et-xmlfile==1.1.0
+executing==0.8.3
+first==2.0.2
+folium==0.12.1
+future==0.18.2
+GDAL==3.4.1
+geocoder==1.38.1
+geojson==2.5.0
+geojson-utils==0.0.2
+gunicorn @ file:///tmp/build/80754af9/gunicorn_1617118195166/work
+html5lib==1.1
+idna==2.10
+ipdb==0.13.9
+ipython==8.3.0
+jdcal==1.4.1
+jedi==0.18.1
+Jinja2==3.1.1
+jsonfield==3.1.0
+lxml==4.6.2
+mailjet-rest==1.3.4
+MarkupSafe==2.1.1
+matplotlib-inline==0.1.3
+mkl-fft==1.3.1
+mkl-random @ file:///tmp/build/80754af9/mkl_random_1626186066731/work
+mkl-service==2.4.0
+numpy==1.22.3
+openpyxl==3.0.5
+pandas==1.4.2
+parso==0.8.3
+pexpect==4.8.0
+pickleshare==0.7.5
+Pillow==8.1.0
+plotly==4.11.0
+prompt-toolkit==3.0.29
+psutil==5.8.0
+psycopg2==2.8.6
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pybind11==2.9.2
+pycosat==0.6.3
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+Pygments==2.12.0
+pyOpenSSL @ file:///opt/conda/conda-bld/pyopenssl_1643788558760/work
+PySocks @ file:///tmp/build/80754af9/pysocks_1605305812635/work
+python-dateutil==2.8.2
+python-decouple==3.6
+python-docx==0.8.11
+pytz==2022.1
+ratelim==0.1.6
+redis==3.5.3
+requests==2.25.1
+retrying==1.3.3
+ruamel-yaml-conda @ file:///tmp/build/80754af9/ruamel_yaml_1616016711199/work
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+soupsieve==2.3.2.post1
+sqlparse==0.4.2
+stack-data==0.2.0
+tinycss2==1.1.1
+toml==0.10.2
+tqdm @ file:///opt/conda/conda-bld/tqdm_1650891076910/work
+traitlets==5.2.1.post0
+Unidecode==1.1.2
+urllib3 @ file:///opt/conda/conda-bld/urllib3_1650639997961/work
+Wand==0.6.7
+wcwidth==0.2.5
+webencodings==0.5.1
+whitenoise==6.2.0
+xlrd==1.2.0

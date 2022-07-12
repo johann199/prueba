@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 's#a8&ev%3^w6o7++&s!v4)-t%9ozblljd0w9_$1zv52(5somou'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -47,6 +47,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.whiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'config.urls'
@@ -72,23 +73,14 @@ WSGI_APPLICATION = 'config.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
+import dj_database_url
+from  decouple import config 
 
 DATABASES = {
-    'default': {
+    'default': dj_database_url.config(
+        default = config('DATABASE_URL')
+    )
 
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-
-        'NAME': 'kimbara',
-
-        'USER': 'postgres',
-
-        'PASSWORD': 'johann1234',
-
-        'HOST': 'localhost',
-
-        'PORT': '5432',
-
-    }
 }
 
 
@@ -127,5 +119,11 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
-
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
+
+STATICFILES_DIRS = (
+    os.path.join(STATIC_ROOT, 'static'),
+)
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
